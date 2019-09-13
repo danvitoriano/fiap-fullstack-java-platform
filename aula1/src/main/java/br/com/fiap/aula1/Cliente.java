@@ -61,9 +61,9 @@ public class Cliente {
     }
 
     public static void main(String[] args) {
-        Cliente cliente = new Cliente("288033516","25158897867","rua 1","danilo");
+        Cliente cliente = new Cliente("2299001122","223344556677","rua 1","danilo");
         System.out.println(cliente.getNumeroRG());
-        cliente.setNumeroRG("000000");
+        cliente.setNumeroRG("000000000");
         System.out.println(cliente.getNumeroRG());
         String retorno = cliente.getNome();
         System.out.println("meu nome é: " + retorno);
